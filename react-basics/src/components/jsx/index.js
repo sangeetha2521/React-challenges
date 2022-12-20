@@ -1,10 +1,12 @@
+//Display jsx elements
+
 import React from "react";
 
-const jsx = () => {
+const Jsx = () => {
     return (
         <div>
             Hello welcome to JSX!
         </div>)
 
 }
-export default jsx;
+export default Jsx;
