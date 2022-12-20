@@ -12,7 +12,6 @@ const TwowayBinding = () => {
             </input>
             <p className="Text">
                 <b>{text}</b>
-
             </p>
         </div>
     )
