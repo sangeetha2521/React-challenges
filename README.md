@@ -1,2 +1,3 @@
 # React-basic-problems
-Here I have worked all the react basic problems
+In this i have worked on basic coding challenges in the react 
+
