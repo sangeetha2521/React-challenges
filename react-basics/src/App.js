@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
 import Jsx from "./components/jsx";
-import Users from './components/Array';
-import HideContent from './components/Hidecontent';
-import TwowayBinding from './components/TwoWayBinding';
-import Disable from './components/DisableButton';
+import Users from "./components/Array";
+import HideContent from "./components/Hidecontent";
+import TwowayBinding from "./components/TwoWayBinding";
+import Disable from "./components/DisableButton";
+import ParantComponent from "./components/ParentComponent";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Jsx />
       <Users />
       <HideContent />
-     <TwowayBinding/>
-     <Disable/>
+      <TwowayBinding />
+      <Disable />
+      <ParantComponent />
     </div>
   );
 }
