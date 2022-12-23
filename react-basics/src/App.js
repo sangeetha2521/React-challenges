@@ -6,6 +6,8 @@ import TwowayBinding from "./components/TwoWayBinding";
 import Disable from "./components/DisableButton";
 import ParantComponent from "./components/ParentComponent";
 import Parent from "./components/Dynamic-Parent";
+import Sum from "./components/Sum";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Disable />
       <ParantComponent />
       <Parent />
+      <Sum />
+      <Counter />
     </div>
   );
 }
