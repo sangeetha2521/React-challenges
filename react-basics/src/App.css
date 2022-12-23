@@ -39,6 +39,12 @@
 .button{
   opacity: 50;
 }
+.Parent{
+  width: 50;
+  height: 40;
+  color:antiquewhite;
+  border:#282c34;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
