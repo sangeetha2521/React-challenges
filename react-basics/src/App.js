@@ -5,6 +5,7 @@ import HideContent from "./components/Hidecontent";
 import TwowayBinding from "./components/TwoWayBinding";
 import Disable from "./components/DisableButton";
 import ParantComponent from "./components/ParentComponent";
+import Parent from "./components/Dynamic-Parent";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <TwowayBinding />
       <Disable />
       <ParantComponent />
+      <Parent />
     </div>
   );
 }
