@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
@@ -11,6 +17,29 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.App,
+.active {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(60, 198, 244); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 2px;
+}
+.ui{
+  margin-top: 5px;
+}
+.inActive {
+  text-align: center;
+  display: contents;
+  margin-left: 400px;
+}
+.Sidebars {
+  width: 20%;
 }
 
 .App-header {
@@ -27,23 +56,27 @@
 .App-link {
   color: #61dafb;
 }
-
+.Sidebars h2 {
+  margin-top: 13px;
+}
 .User {
-  background: pink;
-  color: black;
+  display: flex;
+  flex-direction: column;
 }
-
+.li{
+  margin-top: 13px;
+}
 .Text {
-  color: #282c34,
+  color: #282c34;
 }
-.button{
+.button {
   opacity: 50;
 }
-.Parent{
+.Parent {
   width: 50;
   height: 40;
-  color:antiquewhite;
-  border:#282c34;
+  color: antiquewhite;
+  border: #282c34;
 }
 @keyframes App-logo-spin {
   from {
@@ -53,4 +86,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+@media screen and (max-height: 450px) {
+  .Sidebars {
+    padding-top: 15px;
+  }
+}
+.contents{
+  text-align:center;
 }

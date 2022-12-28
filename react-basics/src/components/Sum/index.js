@@ -27,7 +27,7 @@ const Sum = () => {
       ></input>
       <input
         type="text"
-        placeholder="Enter your 1st number"
+        placeholder="Enter your 2nd number"
         value={number2}
         onChange={(e) => setNumber2(+e.target.value)}
       ></input>
